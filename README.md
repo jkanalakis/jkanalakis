@@ -42,7 +42,8 @@
 
 ## 🚀 Current Projects
 
-### [Tendi.ai](https://www.tendi.ai)
+### Tendi.ai 
+[(Visit Website)](https://www.tendi.ai)
 - **Description**: Democratizing financial literacy with an AI-powered advisor.  
 - **Achievements**:
   - Developed a personalized budgeting tool using advanced ML algorithms, a fine-tuned model, and extensive prompt engineering.
@@ -50,6 +51,7 @@
   - Launched a mobile app featured in CNET Money.
 
 ### Finetuning LLaMA Model for Text Generation Using Unsloth
+[(Visit Repository)](https://github.com/jkanalakis/finetuning-llama-model-for-text-generation-using-unsloth)
 - **Description**: A research-driven project focused on fine-tuning Meta's LLaMA model to enhance its text generation capabilities using Unsloth, a novel technique for efficient data labeling and augmentation. The project optimizes the model's performance on domain-specific tasks by leveraging Unsloth's semi-supervised learning pipeline, enabling rapid iteration with minimal labeled data. Advanced techniques like LoRA (Low-Rank Adaptation) are used to fine-tune the model efficiently without requiring extensive computational resources.
 
 ### Diabetic FoodPilot
@@ -68,7 +70,11 @@
 ## 🏆 Patents & Publications
 
 - **Patents**: Developed a TV-centric UI framework for Cisco’s ūmi telepresence product.  
-- **Publications**: Author of *"Developing .NET Enterprise Applications"* (2003) and "The Complete Guide to Torque X"* (2008)
+- **Publications**:
+  - *"Developing .NET Enterprise Applications"* (2003)  
+    <img src="https://m.media-amazon.com/images/I/41C4Q0P0rUL._SX342_SY445_PQ1_.jpg" alt="Developing .NET Enterprise Applications" width="200">
+  - *"The Complete Guide to Torque X"* (2008)  
+    <img src="https://m.media-amazon.com/images/I/5145ceK8RqL._SX342_SY445_PQ1_.jpg" alt="The Complete Guide to Torque X" width="200">
 
 ## 📫 Contact Me
 - **Email**: [jkanalakis@msn.com](mailto:jkanalakis@msn.com)
