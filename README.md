@@ -16,7 +16,7 @@
 ## 🛠️ My Tech Stack
 
 ### **Frontend Development**
-- **Frameworks & Libraries**: SwiftUI, React.js, Vue.js, Next.js, Angular.js, Tailwind CSS
+- **Frameworks & Libraries**: SwiftUI, React.js, Vue.js, Next.js, Angular.js, Tailwind CSS, Gradio
 - **Design Tools**: Figma, Sketch, Lottie.js
 
 ### **Backend Development**
@@ -42,13 +42,15 @@
 
 ## 🚀 Current Projects
 
-### Tendi.ai
+### [Tendi.ai](https://www.tendi.ai)
 - **Description**: Democratizing financial literacy with an AI-powered advisor.  
 - **Achievements**:
   - Developed a personalized budgeting tool using advanced ML algorithms, a fine-tuned model, and extensive prompt engineering.
   - Leveraged NLP to understand users’ financial personas and social interests.
   - Launched a mobile app featured in CNET Money.
 
+### Finetuning LLaMA Model for Text Generation Using Unsloth
+- **Description**: A research-driven project focused on fine-tuning Meta's LLaMA model to enhance its text generation capabilities using Unsloth, a novel technique for efficient data labeling and augmentation. The project optimizes the model's performance on domain-specific tasks by leveraging Unsloth's semi-supervised learning pipeline, enabling rapid iteration with minimal labeled data. Advanced techniques like LoRA (Low-Rank Adaptation) are used to fine-tune the model efficiently without requiring extensive computational resources.
 
 ### Diabetic FoodPilot
 - **Description**: An AI-powered solution designed for diabetics to estimate carbohydrate consumption and plan insulin dosage effectively. The project leverages data from FoodCentral, location-based insights, and user-specific food preferences to calculate carb content and recommend optimal insulin dosages. It also considers the impacts of varying insulin dosages on glucose levels and lifestyle activities.
