@@ -1,17 +1,19 @@
 ## 💡 About Me
 
 🌟 **Engineering Leader and AI Researcher** with extensive experience in **AI/ML**, **Streaming Video**, and **Full-Stack Development**. I specialize in building innovative, scalable, and impactful products enjoyed by millions worldwide.  
-🔒 Passionate about delivering secure, cutting-edge solutions in **AI-powered systems**, **Web platforms**, and **Mobile applications**.  
-🚀 Skilled at leading multidisciplinary teams, mentoring talent, and driving product success under tight timelines.  
+🔒 Experienced at delivering secure, cutting-edge solutions in **AI-powered systems**, **Web platforms**, and **Mobile applications**.  
+🚀 Skilled at leading cross-functional teams, mentoring talent, and driving product success under tight timelines.  
 🤝 Dedicated to combining AI's intelligence with transparency and ethical practices to solve complex challenges.  
 
 ## 📈 Career Highlights
 
-- Designed and launched Netflix's first video streaming UI for Xbox 360, spearheading the transition to streaming services.
-- Scaled Roku's international streaming platform to 6M+ active devices and optimized AI-driven content recommendations.
 - Founded **Tendi**, an AI-powered financial advisor platform praised for its role in bridging the wealth gap.
+- Scaled **Roku**'s international streaming platform to 6M+ active devices and optimized AI-driven content recommendations.
+- Designed and launched **Netflix**'s first video streaming UI for Xbox 360, spearheading the transition to streaming services.
+- Designed **Cisco**'s complete user interface framework for umi home video conferencing.
+- Advanced **TiVo**'s award-winning embedded televisiona television user experience.
 - Pioneered advanced AI algorithms in personal finance, including RAG, RLHF, and fine-tuning for GPT-4, Llama3, and Mistral.
-- Directed engineering teams at Cisco, Netflix, and Roku, delivering innovative solutions in video conferencing, streaming, and consumer electronics.
+- Directed high-performance engineering teams to deliver innovative solutions in video conferencing, streaming, and consumer electronics.
 
 ## 🛠️ My Tech Stack
 
@@ -75,6 +77,10 @@
     <img src="https://m.media-amazon.com/images/I/41C4Q0P0rUL._SX342_SY445_PQ1_.jpg" alt="Developing .NET Enterprise Applications" width="200">
   - *"The Complete Guide to Torque X"* (2008)  
     <img src="https://m.media-amazon.com/images/I/5145ceK8RqL._SX342_SY445_PQ1_.jpg" alt="The Complete Guide to Torque X" width="200">
+
+	- *"[Web Services & Java Server Pages](https://jacobfilipp.com/DrDobbs/articles/DDJ/2002/0201/0201b/0201b.htm)"* *Dr. Dobb's Journal* (2002)
+
+	- *"[Examining OS/2 2.1 Threads](https://jacobfilipp.com/DrDobbs/articles/DDJ/1994/9401/9401g/9401g.htm)"* *Dr. Dobb's Journal* (1994)
 
 ## 📫 Contact Me
 - **Email**: [jkanalakis@msn.com](mailto:jkanalakis@msn.com)
