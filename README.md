@@ -56,6 +56,10 @@
 [(Visit Repository)](https://github.com/jkanalakis/finetuning-llama-model-for-text-generation-using-unsloth)
 - **Description**: A research-driven project focused on fine-tuning Meta's LLaMA model to enhance its text generation capabilities using Unsloth, a novel technique for efficient data labeling and augmentation. The project optimizes the model's performance on domain-specific tasks by leveraging Unsloth's semi-supervised learning pipeline, enabling rapid iteration with minimal labeled data. Advanced techniques like LoRA (Low-Rank Adaptation) are used to fine-tune the model efficiently without requiring extensive computational resources.
 
+### DeepSeek PDF RAG Solution Using Langchain and Streamlit
+[(Visit Repository)](https://github.com/jkanalakis/pdf-chat-ollama)
+- **Description**: A PDF-based question-answering application built with Streamlit, LangChain, and Ollama. This project enables anyone to upload a PDF file, index its contents, and interactively query the text with natural language questions.
+
 ### Diabetic FoodPilot
 - **Description**: An AI-powered solution designed for diabetics to estimate carbohydrate consumption and plan insulin dosage effectively. The project leverages data from FoodCentral, location-based insights, and user-specific food preferences to calculate carb content and recommend optimal insulin dosages. It also considers the impacts of varying insulin dosages on glucose levels and lifestyle activities.
 - **Tech Stack**: LLMs for NLP-based food description parsing, PyTorch for AI model development, TensorFlow for prediction modeling, geolocation APIs for contextual data, and FoodCentral API for comprehensive nutritional data.
