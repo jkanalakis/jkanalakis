@@ -65,7 +65,7 @@
 - **Description**: A Webpage-based question-answering application that enables anyone to enter a URL, index its contents, and interactively query the text with natural language questions. You can optionally choose between Llama 3.3 and DeepSeek r1 models.
 
 ### Llama 3.3/Llava Image Search & Reverse Search Using Langchain and Streamlit
-[(Visit Repository)](https://github.com/jkanalakis/web-chat-ollama)
+[(Visit Repository)](https://github.com/jkanalakis/image-search-ollama)
 - **Description**: A web-based image search application built with Streamlit, LangChain, and Ollama. This project enables users to upload images, generate concise descriptions, index them for efficient retrieval, and interactively search for images using natural language queries or by providing a similar image.
 
 ## 📚 Past Experiences
