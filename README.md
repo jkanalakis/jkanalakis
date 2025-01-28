@@ -60,6 +60,10 @@
 [(Visit Repository)](https://github.com/jkanalakis/pdf-chat-ollama)
 - **Description**: A PDF-based question-answering application built with Streamlit, LangChain, and Ollama. This project enables anyone to upload a PDF file, index its contents, and interactively query the text with natural language questions.
 
+### DeepSeek/Llama 3.3 Web RAG Solution Using Langchain and Streamlit
+[(Visit Repository)](https://github.com/jkanalakis/web-chat-ollama)
+- **Description**: A Webpage-based question-answering application that enables anyone to enter a URL, index its contents, and interactively query the text with natural language questions. You can optionally choose between Llama 3.3 and DeepSeek r1 models.
+
 ### Diabetic FoodPilot
 - **Description**: An AI-powered solution designed for diabetics to estimate carbohydrate consumption and plan insulin dosage effectively. The project leverages data from FoodCentral, location-based insights, and user-specific food preferences to calculate carb content and recommend optimal insulin dosages. It also considers the impacts of varying insulin dosages on glucose levels and lifestyle activities.
 - **Tech Stack**: LLMs for NLP-based food description parsing, PyTorch for AI model development, TensorFlow for prediction modeling, geolocation APIs for contextual data, and FoodCentral API for comprehensive nutritional data.
