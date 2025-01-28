@@ -52,7 +52,7 @@
   - Leveraged NLP to understand users’ financial personas and social interests.
   - Launched a mobile app featured in CNET Money.
 
-### Finetuning LLaMA Model for Text Generation Using Unsloth
+### Fine-tuning Llama Model for Text Generation Using Unsloth
 [(Visit Repository)](https://github.com/jkanalakis/finetuning-llama-model-for-text-generation-using-unsloth)
 - **Description**: A research-driven project focused on fine-tuning Meta's LLaMA model to enhance its text generation capabilities using Unsloth, a novel technique for efficient data labeling and augmentation. The project optimizes the model's performance on domain-specific tasks by leveraging Unsloth's semi-supervised learning pipeline, enabling rapid iteration with minimal labeled data. Advanced techniques like LoRA (Low-Rank Adaptation) are used to fine-tune the model efficiently without requiring extensive computational resources.
 
