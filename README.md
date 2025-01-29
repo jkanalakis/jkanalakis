@@ -52,6 +52,14 @@
   - Leveraged NLP to understand users’ financial personas and social interests.
   - Launched a mobile app featured in CNET Money.
 
+### video-sentiment-ollama
+[(Visit Repository)](https://github.com/jkanalakis/video-sentiment-ollama)
+- **Description**: An application built with Streamlit, LangChain, Ollama, and moviepy that enables users to upload videos, extracts the audio channel to an MP3 file, applies an AI model to transcribe the audio, and then applies another AI model to perform sentiment analysis on the transcribed text, and visualize the results.
+
+### video-image-understanding
+[(Visit Repository)](https://github.com/jkanalakis/video-image-understanding)
+- **Description**: An application built with Streamlit, LangChain, Ollama, and ffmpeg that builds a video description from individual scenes within the video by sampling video frames evenly, using an AI model to describe each frame, and then append the description to a text file.
+
 ### Fine-tuning Llama Model for Text Generation Using Unsloth
 [(Visit Repository)](https://github.com/jkanalakis/finetuning-llama-model-for-text-generation-using-unsloth)
 - **Description**: A research-driven project focused on fine-tuning Meta's LLaMA model to enhance its text generation capabilities using Unsloth, a novel technique for efficient data labeling and augmentation. The project optimizes the model's performance on domain-specific tasks by leveraging Unsloth's semi-supervised learning pipeline, enabling rapid iteration with minimal labeled data. Advanced techniques like LoRA (Low-Rank Adaptation) are used to fine-tune the model efficiently without requiring extensive computational resources.
