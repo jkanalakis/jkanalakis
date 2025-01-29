@@ -1,4 +1,4 @@
-## 💡 About Me
+## About John Kanalakis
 
 **Engineering Leader and AI Researcher** with extensive experience in **AI/ML**, **Streaming Video**, and **Full-Stack Development**. I specialize in building innovative, scalable, and impactful products enjoyed by millions worldwide.  
 Experienced at delivering secure, cutting-edge solutions in **AI-powered systems**, **Web platforms**, and **Mobile applications**.  
