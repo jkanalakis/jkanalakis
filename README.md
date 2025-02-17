@@ -44,6 +44,10 @@ Dedicated to combining AI's intelligence with transparency and ethical practices
 
 ## My Open-Source Projects
 
+### fast-news-rec
+[(Visit Repository)](https://github.com/jkanalakis/fast-news-rec)
+A lightweight and efficient news article recommendation API built with FastAPI, FAISS, and Sentence Transformers. It enables quick retrieval of semantically similar news articles from a dataset using embeddings and nearest-neighbor search.
+
 ### video-sentiment-ollama
 [(Visit Repository)](https://github.com/jkanalakis/video-sentiment-ollama)
 - **Description**: An application built with Streamlit, LangChain, Ollama, and moviepy that enables users to upload videos, extracts the audio channel to an MP3 file, applies an AI model to transcribe the audio, and then applies another AI model to perform sentiment analysis on the transcribed text, and visualize the results.
