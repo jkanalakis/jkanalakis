@@ -46,7 +46,7 @@ Dedicated to combining AI's intelligence with transparency and ethical practices
 
 ### fast-news-rec
 [(Visit Repository)](https://github.com/jkanalakis/fast-news-rec)
-A lightweight and efficient news article recommendation API built with FastAPI, FAISS, and Sentence Transformers. It enables quick retrieval of semantically similar news articles from a dataset using embeddings and nearest-neighbor search.
+- **Description**: A lightweight and efficient news article recommendation API built with FastAPI, FAISS, and Sentence Transformers. It enables quick retrieval of semantically similar news articles from a dataset using embeddings and nearest-neighbor search.
 
 ### video-sentiment-ollama
 [(Visit Repository)](https://github.com/jkanalakis/video-sentiment-ollama)
