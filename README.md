@@ -10,7 +10,7 @@ San Francisco Bay Area | [jkanalakis@msn.com](mailto:jkanalakis@msn.com) | [link
 
 ## What I'm working on...
 
-**[Tunewright.ai](https://tunewright.ai)**, an open-source LLM fine-tuning workbench. Model adaptation should be reproducible and within reach of small teams, not just labs with a platform org behind them.
+**Tunewright**, an open-source LLM fine-tuning workbench. Model adaptation should be reproducible and within reach of small teams, not just labs with a platform org behind them.
 
 Also exploring: evaluation methodology for multimodal systems, efficient inference, and parameter-efficient fine-tuning at practical scale.
 
