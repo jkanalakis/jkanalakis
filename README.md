@@ -8,39 +8,48 @@ San Francisco Bay Area | [jkanalakis@msn.com](mailto:jkanalakis@msn.com) | [link
 
 ---
 
-## What I'm working on...
+## Selected public implementations
 
-**Tunewright**, an open-source LLM fine-tuning workbench. Model adaptation should be reproducible and within reach of small teams, not just labs with a platform org behind them.
+These repositories show how I approach model adaptation, retrieval, service design, and media processing. They include source code and documented entry points; maturity varies, and they are not claims of production readiness or independently benchmarked performance.
 
-Also exploring: evaluation methodology for multimodal systems, efficient inference, and parameter-efficient fine-tuning at practical scale.
+### [Deep Recall — contextual memory for LLM applications](https://github.com/jkanalakis/deep-recall)
+
+My most substantial public AI infrastructure project: memory, inference, and orchestration components, with semantic retrieval and user-associated memory records.
+
+- **Engineering focus:** PostgreSQL/pgvector storage, FAISS and Qdrant adapters, API authentication components, and separation of retrieval from inference.
+- **Inspect the implementation:** [semantic search](https://github.com/jkanalakis/deep-recall/blob/main/memory/semantic_search.py), [storage adapters](https://github.com/jkanalakis/deep-recall/tree/main/memory/vector_db), and [tests](https://github.com/jkanalakis/deep-recall/tree/main/tests).
+- **Start exploring:** [Streamlit memory example](https://github.com/jkanalakis/deep-recall/tree/main/examples/streamlit-memories) and [Docker setup](https://github.com/jkanalakis/deep-recall/blob/main/deployments/docker/README.md). [Kubernetes configurations](https://github.com/jkanalakis/deep-recall/tree/main/deployments/kubernetes) and [monitoring configurations](https://github.com/jkanalakis/deep-recall/tree/main/deployments/monitoring) show the deployment approach.
+
+### [Llama fine-tuning — Unsloth and LoRA](https://github.com/jkanalakis/finetuning-llama-model-for-text-generation-using-unsloth)
+
+A concrete supervised fine-tuning experiment with Llama 3.2 3B: 4-bit model loading, rank-16 LoRA adapters, ShareGPT-style data preparation, training, adapter saving, and generation.
+
+- **Engineering focus:** parameter-efficient adaptation with explicit training settings and a checked-in sample dataset.
+- **Inspect and reproduce the workflow:** [training notebook](https://github.com/jkanalakis/finetuning-llama-model-for-text-generation-using-unsloth/blob/main/Notebook/fine-tuning-llama.ipynb), [dataset](https://github.com/jkanalakis/finetuning-llama-model-for-text-generation-using-unsloth/blob/main/data/formatted_dataset.json), and [environment setup](https://github.com/jkanalakis/finetuning-llama-model-for-text-generation-using-unsloth/blob/main/README.md). The notebook is the clearest entry point; GPU and dependency compatibility are required.
+
+### [Fast News Rec — semantic retrieval API experiment](https://github.com/jkanalakis/fast-news-rec)
+
+A compact notebook connecting Sentence Transformers embeddings, a FAISS L2 index, and a FastAPI `/recommend` endpoint over a 1,000-article subset of AG News.
+
+- **Engineering focus:** an inspectable path from corpus ingestion to embeddings, indexing, and top-k API responses.
+- **Start here:** [implementation notebook](https://github.com/jkanalakis/fast-news-rec/blob/main/FastNewsRecommender.ipynb). The server implementation lives in the notebook rather than a standalone `app.py`.
+
+### [Video Sentiment — media-to-text analysis prototype](https://github.com/jkanalakis/video-sentiment-ollama)
+
+A Streamlit prototype that extracts video audio with FFmpeg, transcribes it through Google Speech Recognition, applies TextBlob sentiment analysis to transcript chunks, and charts the results.
+
+- **Engineering focus:** modular media processing, transcription, analysis, and visualization.
+- **Inspect the pipeline:** [application](https://github.com/jkanalakis/video-sentiment-ollama/blob/main/app.py), [audio/transcription](https://github.com/jkanalakis/video-sentiment-ollama/blob/main/transcription_alternative.py), and [sentiment analysis](https://github.com/jkanalakis/video-sentiment-ollama/blob/main/sentiment_analysis.py). This analyzes spoken content; transcription uses an external service.
+
+**Additional experiments:** [PDF retrieval and Q&A with Ollama](https://github.com/jkanalakis/pdf-chat-ollama/blob/main/pdf_chat.py), and [video frame sampling](https://github.com/jkanalakis/video-image-understanding/blob/main/app.py). The latter implements FFmpeg frame extraction and a Streamlit interface; its Janus image-description integration remains a placeholder.
 
 ---
 
-## Selected open-source work
+## In development: Tunewright
 
-### [finetuning-llama-model-for-text-generation-using-unsloth](https://github.com/jkanalakis/finetuning-llama-model-for-text-generation-using-unsloth)
-Fine-tuning Llama with Unsloth and LoRA so that low-rank adaptation gets domain-specific performance without the compute bill. Semi-supervised pipeline for rapid iteration on minimal labeled data.
-`Jupyter Notebook` `Unsloth` `LoRA` `Llama 3.2`
+**Tunewright** is an LLM fine-tuning workbench in development, with an open-source direction. The goal is to make model adaptation reproducible and accessible to small teams. No public source repository or demo is linked here yet; the fine-tuning notebook above is available to inspect today.
 
-### [deep-recall](https://github.com/jkanalakis/deep-recall)
-Enterprise-grade memory framework for LLMs offering  GPU-optimized inference, vector storage, and automated scaling. Hyper-personalized responses through efficient context retrieval.
-`Vector Search` `GPU Inference` `Scaling`
-
-### [video-image-understanding](https://github.com/jkanalakis/video-image-understanding)
-Builds a structured description of a video from its individual scenes by applying even frame sampling, per-frame vision-model description, and assembling verything into a coherent whole.
-`Streamlit` `LangChain` `Ollama` `ffmpeg`
-
-### [video-sentiment-ollama](https://github.com/jkanalakis/video-sentiment-ollama)
-Multimodal sentiment analysis over video: extracts the audio channel, transcribes it, runs sentiment over the transcript, and visualizes the result.
-`Streamlit` `LangChain` `Ollama` `moviepy`
-
-### [fast-news-rec](https://github.com/jkanalakis/fast-news-rec)
-Lightweight news recommendation API based on FAISS and Sentence Transformers for semantic nearest-neighbor retrieval, served through FastAPI.
-`FastAPI` `FAISS` `Sentence Transformers`
-
-**Also here:** PDF and web RAG solutions built on DeepSeek and Llama 3.3, and an image search + reverse-search application using Llava for description-indexed retrieval.
-
-**96 public repositories · 550+ contributions in the past year.**
+Also exploring: evaluation methodology for multimodal systems, efficient inference, and parameter-efficient fine-tuning at practical scale.
 
 ---
 
